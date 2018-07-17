@@ -3,8 +3,8 @@
 <html>
 <!-- 
 Program Name:   Seminole Movie Connection using TheMovieDB API
-Author: 
-Date: 
+Author: Pedro Fontanez
+Date: 7/16/18
 Filename:   index.html
 -->
 
@@ -42,7 +42,13 @@ Filename:   index.html
                         <h3 class="list-group-item-heading">Movie Title:</h3>
                         <p class="list-group-item-text lead text-primary" id="original_title"> </p>
                     </a>
-             
+              <!--The code below retrieves the poster URL from the HTTP Response message and displays
+                        the poster on the HTML document where the id is:  "poster_path"
+                    -->
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Poster:</h3>
+                        <center><img id = "poster_path"> </img></center>
+                    </a> 
              
                      <!--******************************Insert Movie Plot*********************************
                      TASK #2:  
@@ -52,7 +58,12 @@ Filename:   index.html
                      HINT:  
                      Use the Movie Title code as an example.
                      
+             
                      *********************************Insert Code Below********************************-->
+                             <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Movie Plot:</h3>
+                        <p class="list-group-item-text lead text-primary" id="overview"> </p>
+                    </a>
                      
                      
                      
@@ -66,7 +77,11 @@ Filename:   index.html
                      
                      *******************************Insert Code Below********************************-->
             
-            
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Release Date:</h3>
+                        <p class="list-group-item-text lead text-primary" id="release_date"> </p>
+                    </a>
+                     
             
                     <!--**********************Insert Movie Popularity Rating***************************
                      TASK #4:  
@@ -78,7 +93,11 @@ Filename:   index.html
                      
                      *******************************Insert Code Below********************************-->
             
-            
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Popularity Rating:</h3>
+                        <p class="list-group-item-text lead text-primary" id="popularity"> </p>
+                    </a>
+                     
             
                     <!--*************************Insert Movie Language************************************
                      TASK #5:  
@@ -89,15 +108,50 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
-            
-            
-                    <!--The code below retrieves the poster URL from the HTTP Response message and displays
-                        the poster on the HTML document where the id is:  "poster_path"
-                    -->
                     <a href="#" class="list-group-item">
-                        <h3 class="list-group-item-heading">Poster:</h3>
-                        <center><img id = "poster_path"> </img></center>
-                    </a> 
+                        <h3 class="list-group-item-heading">Language:</h3>
+                        <p class="list-group-item-text lead text-primary" id="original_language"> </p>
+                    </a>
+                    
+                     <!--*************************Insert Adult************************************
+                     TASK #6:  adult
+                     
+                     *******************************Insert Code Below********************************-->
+                     <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Adult:</h3>
+                        <p class="list-group-item-text lead text-primary" id="adult"> </p>
+                    </a>
+                     
+                     <!--*************************Insert video************************************
+                     TASK #7:  video
+                     
+                     *******************************Insert Code Below********************************-->
+                     <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Video:</h3>
+                        <p class="list-group-item-text lead text-primary" id="video"> </p>
+                    </a>
+                     
+                     <!--*************************Insert Vote Average************************************
+                     TASK #8:  vote_average
+                    
+                     
+                     *******************************Insert Code Below********************************-->
+                     <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Vote Average:</h3>
+                        <p class="list-group-item-text lead text-primary" id="vote_average"> </p>
+                    </a>
+                     
+                     <!--*************************Insert vote count************************************
+                     TASK #9:  vote_count
+                    
+                     
+                     *******************************Insert Code Below********************************-->
+            <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Vote Count:</h3>
+                        <p class="list-group-item-text lead text-primary" id="vote_count"> </p>
+                    </a>
+                    
+                   
                 </div>
             </div> 
     

@@ -32,7 +32,7 @@ $(document).ready(function(){
 
             $.ajax({
                 //Insert YOUR API Key after the '=' inside the single quotes.
-                url:'https://api.themoviedb.org/3/search/movie?api_key=INSERT-HERE',
+                url:'https://api.themoviedb.org/3/search/movie?api_key=1e9f078e199f61a04451becb85e4fbec',
                 data: query
             })
             
@@ -57,7 +57,7 @@ $(document).ready(function(){
                  
                  *********************************Insert Code Below********************************************/                
                 
-                
+                 $("#overview").html(json.results[0].overview);
                 
 
                 /***********************Retrieve Movie Release Date from Server & Add to HTML Document***********
@@ -73,7 +73,7 @@ $(document).ready(function(){
                  *********************************Insert Code Below********************************************/               
 
 
-
+                $("#release_date").html(json.results[0].release_date);
 
                  /***********************Retrieve Movie Popularity Rate from Server & Add to HTML Document******
                  TASK #8:  
@@ -87,7 +87,7 @@ $(document).ready(function(){
                  
                  *********************************Insert Code Below********************************************/   
 
-  
+                $("#popularity").html(json.results[0].popularity);
 
                 
                  /*****************Retrieve Movie Original Language from Server & Add to HTML Document***********
@@ -101,8 +101,18 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/                 
-
-
+                $("#original_language").html(json.results[0].original_language);
+                
+               /*****************additional sections**************************/
+                
+                $("#adult").html(json.results[0].adult);
+                
+                $("#video").html(json.results[0].video);
+                
+                $("#vote_average").html(json.results[0].vote_average);
+                
+                $("#vote_count").html(json.results[0].vote_count);
+              
 
                 //The following code retrieves the movie poster path from the JSON object retrieved from the TMDB 
                 //Server and places the poster image on the HTML page, where the id="poster_path".  It took TWO

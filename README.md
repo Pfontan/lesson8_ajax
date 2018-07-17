@@ -4,19 +4,18 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+(July 17, 2018)
 
 ### Student Name:  
-(First and Last Name)
+(Pedro Fontanez)
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+(In this assignment we used JSON and JQuery to add an API from a movie site database, this helps us pull movie info onto our site.)
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+(https://pfontan.github.io/lesson8_ajax/)
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. (Web service is a software component that resides in a web server.)
+2. (Web pages are identified by a URL.)
+3. (JSON is a syntax for storing and exchanging data.)
